@@ -12,7 +12,7 @@ Outline web page: [http://adamcandy.github.io/Shingle](http://adamcandy.github.i
 Build status
 ------------
 
-[![Build Status](https://secure.travis-ci.org/adamcandy/Shingle.png)](http://travis-ci.org/adamcandy/Shingle)
+[![Build Status](https://api.travis-ci.org/shingleproject/Shingle1.0.svg?branch=master)](http://travis-ci.org/adamcandy/Shingle)
 
 Example geophysical domains
 ---------------------------
@@ -33,8 +33,6 @@ The new approach uses contouring routines (as opposed to the GSHHS Gmsh plugin, 
   
 The dependencies are all Python modules (e.g. GMT is not required).
 
- * which involves a neat trick with modulo arithmetic to keep calculation time down significantly.
-  
 Supported features
 ------------------
 
@@ -87,5 +85,3 @@ The above tests use the RTopo dataset, described in detail at: [http://doi.panga
 Timmermann, R et al. (2010): Antarctic ice sheet topography, cavity geometry, and global bathymetry (RTopo 1.0.5-beta). doi:10.1594/PANGAEA.741917,
 Supplement to: Timmermann, Ralph; Le Brocq, Anne M; Deen, Tara J; Domack, Eugene W; Dutrieux, Pierre; Galton-Fenzi, Ben; Hellmer, Hartmut H; Humbert, Angelika; Jansen, Daniela; Jenkins, Adrian; Lambrecht, Astrid; Makinson, Keith; Niederjasper, Fred; Nitsche, Frank-Oliver; Nøst, Ole Anders; Smedsrud, Lars Henrik; Smith, Walter (2010): A consistent dataset of Antarctic ice sheet topography, cavity geometry, and global bathymetry. Earth System Science Data, 2(2), 261-273, doi:10.5194/essd-2-261-2010
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/5494cf3263af78dea92487d951d530a8 "githalytics.com")](http://githalytics.com/adamcandy/Shingle)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/adamcandy/shingle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
