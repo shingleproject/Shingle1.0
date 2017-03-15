@@ -7,12 +7,14 @@ For further information and updates, please contact the author Dr Adam S. Candy 
 
 ![Shingle](./data/shingle.png?raw=true "Shingle")
 
-Outline web page: [http://adamcandy.github.io/Shingle](http://adamcandy.github.io/Shingle "Shingle")
+Outline web page: [http://shingleproject.org](http://shingleproject.org "Shingle")
+
+Further information is available in the [http://homepage.tudelft.nl/w8w0h/4fcf65d8/shingle_manual.pdf](Shingle manual "Shingle manual")
 
 Build status
 ------------
 
-[![Build Status](https://travis-ci.org/shingleproject/Shingle1.0.svg?branch=master)](http://travis-ci.org/adamcandy/Shingle)
+[![Build Status](https://travis-ci.org/shingleproject/Shingle1.0.svg?branch=master)](http://travis-ci.org/shingleproject/Shingle1.0)
 
 Example geophysical domains
 ---------------------------
@@ -27,7 +29,7 @@ Outline
 
 A new meshing approach for realistic domains.
   
-This code generates boundary representations with elemernt identifications from arbitrary geophysical fields.  It was originally used  mask to generate a boundary along the coastlines and grounding line* (which is not positioned at a constant depth).  The code is easily applied to boundaries along depth contours and to work with other NetCDF sources.
+This code generates boundary representations with element identifications from arbitrary geophysical fields.  It was originally used  mask to generate a boundary along the coastlines and grounding line (which is not positioned at a constant depth).  The code is easily applied to boundaries along depth contours and to work with other NetCDF sources.
   
 The new approach uses contouring routines (as opposed to the GSHHS Gmsh plugin, or a GMT approach).  It would be useful to test this new code on a wide range of regions - particularly to check the contouring routines are behaving satisfactorily.  It works very well in the Antarctic region (including the region inside ice shelf cavities). 
   
