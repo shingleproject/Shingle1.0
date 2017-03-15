@@ -12,7 +12,7 @@ Outline web page: [http://adamcandy.github.io/Shingle](http://adamcandy.github.i
 Build status
 ------------
 
-[![Build Status](https://api.travis-ci.org/shingleproject/Shingle1.0.svg?branch=master)](http://travis-ci.org/adamcandy/Shingle)
+[![Build Status](https://travis-ci.org/shingleproject/Shingle1.0.svg?branch=master)](http://travis-ci.org/adamcandy/Shingle)
 
 Example geophysical domains
 ---------------------------
